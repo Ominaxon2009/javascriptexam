@@ -45,7 +45,7 @@ function calculate() {
             natija = "Noto‘g‘ri amal tanlandi!";
         }
 
-        // Natijani qizil tugmaga yozish
+        
         resultElement.textContent = "Natija: " + natija;
     } else {
         resultElement.textContent = "Iltimos, faqat raqam kiriting!";
