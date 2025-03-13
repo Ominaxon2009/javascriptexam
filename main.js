@@ -1,14 +1,14 @@
 
-// Foydalanuvchidan ma'lumot olish
+
 let one = Number(prompt("1-sonni kiriting:"));
 let znak = prompt("Tanlang: \n1) - \n2) + \n3) / \n4) *");
 let two = Number(prompt("2-sonni kiriting:"));
 
-// To‘g‘ri ID-larga qiymatlarni joylash
+
 document.getElementById("firstNumber").value = one;
 document.getElementById("secondNumber").value = two;
 
-// Znakni mos formatga o'tkazish
+
 let operationSelect = document.getElementById("operation");
 
 if (znak === "1") {
@@ -23,7 +23,7 @@ if (znak === "1") {
     alert("Noto‘g‘ri amal tanlandi! Standart amal qo‘llaniladi.");
 }
 
-// Hisoblash funksiyasi
+
 function calculate() {
     let one = Number(document.getElementById("firstNumber").value);
     let znak = document.getElementById("operation").value;
